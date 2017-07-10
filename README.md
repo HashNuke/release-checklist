@@ -1,6 +1,6 @@
 # Release Checklist
 
-> I found it useful to maintain a checklist when deploying code. This was compiled over a period. Feel free to contribute changes on [GitHub](https://github.com/HashNuke/release-checklist)
+> I found it useful to maintain a checklist when deploying code. This was compiled over a period of time. Feel free to contribute changes on [GitHub](https://github.com/HashNuke/release-checklist)
 > 
 > -- [@HashNuke](https://twitter.com/HashNuke)
 
