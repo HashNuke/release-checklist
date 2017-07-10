@@ -7,9 +7,9 @@
 ---
 
 ## SQL & indexes
-* For new queries in the code, run `explain` and add required indexes
-* For queries for reporting, run `explain` and add required indexes
-* Identify and remove `n+1` queries
+* For new queries in the code, run [explain](https://www.postgresql.org/docs/current/static/using-explain.html) and add required indexes ([Postgres Query Plan Visualizer](http://tatiyants.com/pev/))
+* For queries used for reporting, run `explain` and add required indexes
+* Identify and remove [n+1 queries](https://stackoverflow.com/questions/97197/what-is-n1-select-query-issue)
 * Use transactions where necessary
 
 ## Caching
