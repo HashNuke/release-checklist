@@ -19,7 +19,7 @@
 
 ## Code
 * Comments for any hacks
-* Test cases for all code that isn’t quickly comprehendible
+* Test cases for all code that isn't quickly comprehendible
 * Test any code that depends on randomisation
 * Respect third-party API limits
 * Request-response times
@@ -48,6 +48,7 @@
 * Navigation links
 * Anything that depends on SMS (Reset password, 2FA, etc)
 * Cross-browser tests
+* Check if unicode is used properly. Not like this’
 
 ## Debugging
 * Build reports/pages/scripts to be able to debug quickly
