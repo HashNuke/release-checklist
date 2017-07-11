@@ -17,7 +17,7 @@
 
 ## Code
 * Comments for any hacks
-* Test cases for all code that isn't quickly comprehendible
+* Test cases for all code that isn't quickly comprehensible
 * Test any code that depends on randomisation
 * Respect third-party API limits
 * Request-response times
@@ -46,7 +46,7 @@
 * Navigation links
 * Anything that depends on SMS (Reset password, 2FA, etc)
 * Cross-browser tests
-* Check if unicode is used properly. Not like this’
+* Lookout for weird characters in views and check if unicode is used properly
 
 ## Debugging
 * Build reports/pages/scripts to be able to debug quickly
@@ -59,6 +59,7 @@
 
 ## Communication
 * Inform co-workers about any changes to development setup and provide necessary scripts/commands to migrate
+* Update README/docs about changes
 
 ---
 
