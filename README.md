@@ -1,14 +1,12 @@
 # Release Checklist
 
-> I found it useful to maintain a checklist when deploying code. This was compiled over a period of time. Feel free to contribute changes on [GitHub](https://github.com/HashNuke/release-checklist)
-> 
-> -- [@HashNuke](https://twitter.com/HashNuke)
+[[Github](https://github.com/HashNuke/release-checklist)] [[@HashNuke](https://twitter.com/HashNuke)]
 
 ---
 
 ## SQL & indexes
-* For new queries in the code, run [explain](https://www.postgresql.org/docs/current/static/using-explain.html) and add required indexes ([Postgres Query Plan Visualizer](http://tatiyants.com/pev/))
-* For queries used for reporting, run `explain` and add required indexes
+* For new queries in the code, run [`explain`](https://www.postgresql.org/docs/current/static/using-explain.html) and add required indexes ([Postgres Query Plan Visualizer](http://tatiyants.com/pev/))
+* For queries used for reporting, run [`explain`](https://www.postgresql.org/docs/current/static/using-explain.html) and add required indexes
 * Identify and remove [n+1 queries](https://stackoverflow.com/questions/97197/what-is-n1-select-query-issue)
 * Use transactions where necessary
 
@@ -61,3 +59,9 @@
 
 ## Communication
 * Inform co-workers about any changes to development setup and provide necessary scripts/commands to migrate
+
+---
+
+> I found it useful to maintain a checklist when deploying code. This was compiled over a period of time. Feel free to contribute changes on [GitHub](https://github.com/HashNuke/release-checklist)
+> 
+> -- [@HashNuke](https://twitter.com/HashNuke)

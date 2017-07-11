@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4fb84b28a3a941ff59a5eca49a6813218590cb736e0ee66388c2e834e61f836b"
+            "sha256": "86e50a86a58dcdd5aea4997544f0567c078b9850a118520ef1725a7b34552562"
         },
         "requires": {},
         "sources": [
@@ -12,9 +12,9 @@
         ]
     },
     "default": {
-        "markdown2": {
-            "hash": "sha256:264731e7625402227ff6fb01f2d814882da7705432659a18a419c508e8bfccb1",
-            "version": "==2.3.4"
+        "mistune": {
+            "hash": "sha256:9d21a8ad203c6d7253492518fde7e633c561fecd544301017ab4a5929452955b",
+            "version": "==0.7.4"
         }
     },
     "develop": {}
